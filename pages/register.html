@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-ZW">
+<head>
+   <title>companyregistration</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css">
+   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+</head>
+<body>
+
+<div class="top-container">
+  <p>  <i class="fas fa-map-marker-alt" style='font-size:20px'></i>
+4th street, ground floor..</p>
+  <p>  <i class="fas fa-business-time" style='font-size:20px'></i>
+Mon - Fri 08:00am - 05:00pm</p>
+  <p>  <i class="fas fa-phone" style='font-size:20px'></i>
++263771234567</p>
+  <div class="icons">
+  <i class="fab fa-facebook-f" style='font-size:20px'></i>
+  <i class="fab fa-google" style='font-size:20px'></i>
+  <i class="fab fa-linkedin" style='font-size:24px'></i>
+</div>
+</div>
+
+<div class="header" id="myHeader">
+  <h2><a href="../index.html">CompanyLogo</a></h2>
+  <nav id="nav-list">
+   <a href="../index.html">Home</a>
+   <a href="about.html">AboutUS</a>
+   <a href="services.html">Services</a>
+   <a href="requirements.html">Requirements</a>
+   <a href="register.html" style="color: red">Register Online</a>
+  </nav>
+  <a href="javascript:void(0);" class="icon" onclick="menu()">
+    <div class="burger" id="menu-button">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </a>
+</div>
+<div class="head">
+   <h2>Registration Form</h2>
+</div>
+<article>
+   <div class="form-field">
+   <div id="errorText"></div>
+      <form action="#" novalidate="novalidate">
+         <fieldset id="personalInfo" class="text">
+            <legend><h3>Personal Information</h3></legend>
+            <input id="FName" name="FirstName" type="text" required="required" placeholder="First Name" />
+            <input id="LName" name="LastName" type="text" required="required" placeholder="Last Name" />
+            <input id="Email" name="Email" type="text" required="required" placeholder="Email" />
+            
+            <input id="Phone" name="Phone" type="number" required="required" placeholder="Phone" />
+            <div class="errorMessage"></div>
+         </fieldset>
+         <fieldset id="disclaimer" class="text">
+            <legend><h3>Disclaimer</h3></legend>
+            <div class="checks">
+               <label for="disOne" class="checkbox">
+               <input id="disOne" name="disclaimerOne" type="checkbox" />
+                  I hereby authorise Angel & Walt to register my/our company and to offer related services on behalf of my/our company. I indemnify Zimbabwe Company Registrations from any responsibility, mistakes or errors arising from incorrect information submitted on this form or from mistakes made by the Registrar’s office.
+               </label>
+               <label for="disTwo" class="checkbox">
+               <input id="disTwo" name="disclaimerTwo" type="checkbox" />
+               Please note that if the Registrar rejects your selection of names, the registration process will be delayed by a further six (6) working days to allow for the processing of new names. You will also need to supply us with a new name list.
+            </label>
+               <label for="disThree" class="checkbox">
+                <input id="disThree" name="disclaimerThree" type="checkbox" />
+               Registration Process: The registration will take approximately seven to twelve (12) working days. This period will be divided into two; the first six (6) working days for the name search and another six (6) for the actual registration.
+            </label>
+            </div>
+         </fieldset>
+         <fieldset id="companyType" class="text">
+            <legend><h3>Company type</h3></legend>
+            <div class="checks">
+               <label for="pbc" class="checkbox">
+               <input id="pbc" name="pbc" type="checkbox" />
+               Private Business Corporation (PBC)</label>
+               <label for="pvt" class="checkbox">
+               <input id="pvt" name="pvt" type="checkbox" />
+               Private Limited Company (PVT)</label>
+            </div>
+
+            <input id="CName" name="CompanyName" type="text" required="required" placeholder="Proposed company name 1" />
+            <input id="CNameTwo" name="CompanyNameTwo" type="text" required="required" placeholder="Proposed company name 2" />
+            <input id="CNameThree" name="CompanyNameThree" type="text" required="required" placeholder="Proposed company name 3" />
+            <input id="CNameFour" name="CompanyNameFour" type="text" required="required" placeholder="Proposed company name 4" />
+            <input id="CNameFive" name="CompanyNameFive" type="text" required="required" placeholder="Proposed company name 5" />
+            <input id="Address" name="BusinessAddress" type="text" required="required" placeholder="Business Address" />
+            <input id="BusinessCity" name="BusinessCity" type="text" required="required" placeholder="Business City" />
+            <input id="FinYear" name="FinYear" type="text" required="required" placeholder="Date of finacial year(Most opt for 31 Dec)" />
+            <textarea id="CoreBusiness" name="CoreBusiness" required="required" placeholder="Core business of the company"></textarea>
+            <div class="errorMessage"></div>
+         </fieldset>
+         <fieldset id="directors" class="text">
+            <legend><h3>Director One</h3></legend>
+            <input id="FName" name="FirstName" type="text" required="required" placeholder="First Name" />
+            <input id="LName" name="LastName" type="text" required="required" placeholder="Last Name" />
+            <input id="DirecAddress" name="DirecAddress" type="text" required="required" placeholder="Address" />
+            <input id="IdNum" name="IdNum" type="text" required="required" placeholder="I.D Number" />
+            <input id="Shares" name="Shares" type="text" required="required" placeholder="Shares %" />
+            
+            <div class="errorMessage"></div>
+         </fieldset>
+         <fieldset id="directors" class="text">
+            <legend><h3>Director Two</h3></legend>
+             <input id="FName" name="FirstName" type="text" required="required" placeholder="First Name" />
+            <input id="LName" name="LastName" type="text" required="required" placeholder="Last Name" />
+            <input id="DirecAddress" name="DirecAddress" type="text" required="required" placeholder="Address" />
+            <input id="IdNum" name="IdNum" type="text" required="required" placeholder="I.D Number" />
+            <input id="Shares" name="Shares" type="text" required="required" placeholder="Shares %" />
+            
+            <div class="errorMessage"></div>
+         </fieldset>
+         <fieldset id="directors" class="text">
+            <legend><h3>Director Three</h3></legend>
+             <input id="FName" name="FirstName" type="text" required="required" placeholder="First Name" />
+            <input id="LName" name="LastName" type="text" required="required" placeholder="Last Name" />
+            <input id="DirecAddress" name="DirecAddress" type="text" required="required" placeholder="Address" />
+            <input id="IdNum" name="IdNum" type="text" required="required" placeholder="I.D Number" />
+            <input id="Shares" name="Shares" type="text" required="required" placeholder="Shares %" />
+            <div class="errorMessage"></div>
+         </fieldset>
+         <fieldset id="directors" class="text">
+            <legend><h3>Director Four</h3></legend>
+             <input id="FName" name="FirstName" type="text" required="required" placeholder="First Name" />
+            <input id="LName" name="LastName" type="text" required="required" placeholder="Last Name" />
+            <input id="DirecAddress" name="DirecAddress" type="text" required="required" placeholder="Address" />
+            <input id="IdNum" name="IdNum" type="text" required="required" placeholder="I.D Number" />
+            <input id="Shares" name="Shares" type="text" required="required" placeholder="Shares %" />
+            <div class="errorMessage"></div>
+         </fieldset>
+         <fieldset id="directors" class="text">
+            <legend><h3>Director Five</h3></legend>
+             <input id="FName" name="FirstName" type="text" required="required" placeholder="First Name" />
+            <input id="LName" name="LastName" type="text" required="required" placeholder="Last Name" />
+            <input id="DirecAddress" name="DirecAddress" type="text" required="required" placeholder="Address" />
+            <input id="IdNum" name="IdNum" type="text" required="required" placeholder="I.D Number" />
+            <input id="Shares" name="Shares" type="text" required="required" placeholder="Shares %" />
+            <div class="errorMessage"></div>
+         </fieldset>
+            <textarea id="Comments" name="Comments" placeholder="Anything you want to comment?"></textarea>
+         <div id="buttonContainer">
+            <input type="submit" value="Submit Form" id="orderButton" />
+         </div>
+      </form>
+   </div>
+</article>
+<footer><p>Copyright Company Registrations &copy 2019 Designed by DOUCETECH. All rights reserved
+</p></footer>   <script src="../js/jquery-3.4.0.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/script.js" type="text/javascript"></script>
+<!-- Marshall Chikari -->
+</body>
+</html>

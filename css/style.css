@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  height: 60px;
+  background-color:  #00131a;
+  padding: 0px;
+  color: white;
+}
+.top-container p {
+  float: left;
+  padding: 0 5px 0 5px;
+}
+.top-container .icons {
+  float: right;
+  margin-top: 10px;
+}
+.top-container a {
+  text-decoration: none;
+  color: white;
+}
+.top-container i {
+    padding: 0px 5px;
+}
+.header {
+  padding: 10px 16px;
+  background-color: white;
+  color: black;
+  z-index: 50;
+  font-family: helvetica, sans-serif;
+}
+.header h2 {
+  float: left;
+  padding-left: 10%;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header nav {
+  float: left;
+  margin: 30px 0 0 20%;
+}
+nav a {
+  padding-left: 25px;
+}
+nav a:hover {
+  color: green;
+}
+.burger {
+  width: 0;
+  float: right;
+}
+.burger div {
+  width: 0;
+  height: 4px;
+  margin-top: 2px;
+  background-color: black;
+}
+.content {
+  width: 100%;
+  height: 420px;
+  float: left;
+  background-image: url(../images/city.jpg);
+  background-size: cover;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.sec-one {
+  width: 80%;
+  margin:  10%;
+  float: left;
+}
+.sec-one img {
+  width: 30%;
+  height: 480px;
+  margin: 0 20px;
+  float: left;
+  object-fit: contain;
+  overflow: auto;
+}
+.sec-one p ul {
+  margin-left: 20px;
+}
+article {
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+article .company-type {
+  width: 100%;
+  float: left;
+  font-family: Times New Roman;
+  color:  white;
+  background-image: url(../images/room.jpg);
+  background-size: cover;
+}
+article .company-type .headline {
+  width: 100%;
+  height: 100px;
+  background-color:  #00131a;
+  float: left;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  border-bottom: solid 1px grey;
+}
+article .company-type .para1 {
+  float: left;
+  width: 45%;
+  margin: 5% 0 5% 5%;
+  font-size: 16px;
+  background-color: #102223;
+  opacity: 0.6;
+}
+article .company-type .para2 {
+  float: left;
+  width: 40%;
+  margin: 5% 0 5% 5%;
+  font-size: 16px;
+  background-color: #102223;
+  opacity: 0.6;
+}
+article .company-type h6 {
+  font-size: 25px;
+  padding-left: 25px;
+  font-family: verdana, sans-serif;
+}
+
+.contact {
+  width: 100%;
+  float: left;
+  background-color: #00131a;
+  color: white;
+}
+.contact .left {
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+.left img {
+  width: 100%;
+  height: 80%;
+  margin: 60px 20px 0 20px;
+  object-fit: contain;
+}
+.left p {
+  line-height: 30px;
+  padding: 0px 0px 0px 56px;
+  font-family: 'Times New Roman', sans-serif;
+}
+.contact .right {
+  width: 40%;
+  float: left;
+  margin: 3% 0 3% 3%;
+}
+.contact input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact input[type=submit]:hover {
+  background-color: #45a049;
+}
+section {
+      width: 60%;
+      float: left;
+      margin: 5% 20% 0 20%;
+      color: white;
+      background-color: black;
+      opacity: 0.8;
+      padding: 20px;
+      letter-spacing: 2px;
+    }
+.head {
+  width: 100%;
+  height: 60px;
+  float: left;
+  background-color: #ffffe6;
+  text-align: left;
+  padding: 10px 0 0 15%;
+}
+.form-field {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  float: left;
+  background-color: #f5f5f0;
+}
+.form-field .text {
+  float: left;
+  margin-top: 30px;
+  border: none;
+  font-size: 13px;
+}
+.form-field .text h3 {
+  font-size: 24px;
+  padding-left: 60px;
+}
+.form-field input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0 0 60px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-field input[type=number], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0 0 60px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-field input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0 0 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-field input[type=checkbox] {
+  margin: 8px 0;
+}
+.form-field .checkbox {
+  display: block;
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.form-field textarea {
+  width: 86%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 10px 0 0 60px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  float: left;
+  background-color: #102223;
+  border-top: solid 1px grey;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}

@@ -1,0 +1,251 @@
+@media only screen and (max-width: 600px) {
+	.top-container {
+		display: none;
+	}
+	.header {
+		width: 100%;
+		padding: 0px;
+		float: left;
+	}
+	.header h2 {
+		float: left;
+		font-size: 15px;
+		padding-left: 10px;
+	}
+	nav {
+		display: none;
+		position: absolute;
+  		background-color: #f1f1f1;
+  		width: 80%;
+  		left: 0;
+  		right: 0;
+  		overflow: auto;
+  		margin: 20px 10px 0px 0px;
+  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  		z-index: 1;
+	}
+	nav a {
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+	}
+	.burger {
+		width: 30px;
+		margin: 10px;
+	}
+	.burger div {
+		width: 20px; 
+	}
+	.content {
+  width: 100%;
+  height: 250px;
+  float: left;
+  background-image: url(../images/city.jpg);
+  background-size: cover;
+}
+
+.sec-one {
+  width: 90%;
+  margin:  5%;
+  float: left;
+}
+.sec-one img {
+  width: 90%;
+  height: 480px;
+  margin: 5%;
+  float: left;
+  object-fit: contain;
+  overflow: auto;
+}
+.sec-one p ul {
+  margin-left: 20px;
+}
+article {
+  width: 100%;
+  float: left;
+  background-color: white;
+}
+article .company-type {
+  width: 100%;
+  float: left;
+  font-family: Times New Roman;
+  color:  #006080;
+}
+article .company-type .headline {
+  width: 100%;
+  height: 50px;
+  background-color:  #00131a;
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+article .company-type .para1 {
+  float: left;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  background-color: white;
+
+}
+article .company-type .para2 {
+  float: left;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  background-color: white;
+}
+article h6 {
+  font-size: 18px;
+  padding-left: 25px;
+  font-family: verdana, sans-serif;
+
+}
+section {
+      width: 90%;
+      float: left;
+      margin: 2.5%;
+      color: white;
+      background-color: black;
+      opacity: 0.8;
+      padding: 10px;
+      letter-spacing: 2px;
+    }
+.contact {
+  width: 100%;
+  float: left;
+  background-color: #00131a;
+  color: white;
+}
+.contact .left {
+  width: 100%;
+  height: 600px;
+  float: left;
+}
+.left img {
+  width: 90%;
+  height: 50%;
+  margin: 5%;
+  object-fit: contain;
+}
+.left p {
+  line-height: 30px;
+  padding: 20px;
+  font-family: 'Times New Roman', sans-serif;
+}
+.contact .right {
+  width: 90%;
+  float: left;
+  margin: 5%;
+}
+.contact input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact input[type=submit]:hover {
+  background-color: #45a049;
+}
+.head {
+  width: 100%;
+  height: 100px;
+  float: left;
+  background-color: #ffffe6;
+  text-align: center;
+  padding: 40px 0 0 0;
+}
+.form-field {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  float: left;
+  background-color: #f5f5f0;
+}
+.form-field .text {
+  float: left;
+  margin-top: 30px;
+  border: none;
+  font-size: 13px;
+}
+.form-field .text h3 {
+  font-size: 18px;
+  padding-left: 60px;
+}
+.form-field input[type=text], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-field input[type=number], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-field input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0 20px 60px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-field input[type=checkbox] {
+  margin: 8px 0;
+}
+.form-field .checkbox {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.form-field textarea {
+  width: 90%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 10px 0 0 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+section {
+	
+}
+footer {
+  width: 100%;
+  height: 50px;
+  float: left;
+  background-color: #00131a;
+  border-top: solid thin white;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+}
